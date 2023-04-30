@@ -1,0 +1,37 @@
+.navbar {
+  height: 75px;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer {
+  width: 100%;
+  max-width: 1200px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.walid {
+  font-weight: 900;
+  color: rgb(207, 232, 255);
+}
+
+.navItems {
+}
+
+.navButton {
+  margin: 5px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  color: #003580;
+  font-family: "Poppins", sans-serif;
+}
