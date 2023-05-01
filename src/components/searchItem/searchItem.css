@@ -58,18 +58,50 @@
 
 /* Details */
 
+.siDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .siRating {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 .siRating > span {
   font-weight: 700;
 }
-.siRating > BUTTON {
+.siRating > button {
   background-color: #003387;
   color: white;
   padding: 5px;
   font-weight: bold;
   border: none;
+}
+
+.siDetailTexts {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 10px;
+}
+.siPrice {
+  font-weight: bold;
+  font-size: 20px;
+}
+.siTax {
+  color: rgba(0, 128, 0, 0.848);
+}
+
+.siCheckButton {
+  font-weight: bold;
+  background-color: #1857be;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  width: 100%;
+  cursor: pointer;
 }

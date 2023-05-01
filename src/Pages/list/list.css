@@ -14,10 +14,11 @@
 .listSearch {
   background-color: #febb02;
   flex: 1;
-  padding: 10px;
+  padding: 10px 20px;
   border-radius: 10px;
   position: sticky;
   top: 10px;
+  height: max-content;
 }
 
 .listResult {
@@ -33,7 +34,7 @@
   color: white;
   font-weight: 700;
   width: 100%;
-  background-color: #003580f9;
+  background-color: #1256b5f9;
   cursor: pointer;
 }
 

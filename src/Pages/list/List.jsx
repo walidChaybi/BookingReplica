@@ -3,10 +3,14 @@ import Header from "../../components/header/Header"
 import Navbar from "../../components/navbar/Navbar"
 import { format } from "date-fns"
 import "./list.css"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { DateRange } from "react-date-range"
 import SearchItem from "../../components/searchItem/SearchItem"
 function List() {
+  useEffect(() => {
+    setDestination(location.state.destination)
+  }, [])
+
   const location = useLocation()
   const [destination, setDestination] = useState(location.state.destination)
   const [date, setDate] = useState(location.state.date)
