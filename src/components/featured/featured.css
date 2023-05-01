@@ -1,0 +1,27 @@
+.featured {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.featuredItem {
+  position: relative;
+  color: white;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.1s ease;
+}
+.featuredItem:hover {
+  transform: scale(1.015);
+}
+.featuredImg {
+  width: 100%;
+}
+.featuredTitles {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+}

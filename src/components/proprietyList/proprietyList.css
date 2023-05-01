@@ -1,0 +1,33 @@
+.pList {
+  padding: 10px 0;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.pListImg {
+  background-color: aquamarine;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.main {
+}
+.pListItem {
+  flex: 1;
+  overflow: hidden;
+  cursor: pointer;
+}
+.pListItem:hover {
+  transform: scale(1.03);
+}
+
+.pListTitles > h1 {
+  font-size: 18px;
+}
+.pListTitles > h2 {
+  font-size: 14px;
+}

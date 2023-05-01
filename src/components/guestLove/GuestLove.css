@@ -1,0 +1,45 @@
+.guestLove {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.guestLoveItem {
+  flex: 1;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.guestLoveImg {
+  width: 100%;
+}
+
+.guestLoveName {
+  font-weight: bold;
+}
+
+.guestLoveCity {
+  font-weight: 300;
+  color: gray;
+}
+
+.guestLovePrice {
+  font-weight: 700;
+  color: gray;
+}
+
+.guestLoveRating > button {
+  background-color: #003580;
+  color: white;
+  padding: 3px;
+  margin-right: 5px;
+  border: none;
+  outline: none;
+}
+
+.guestLoveRating > span {
+  font-size: 14px;
+}
