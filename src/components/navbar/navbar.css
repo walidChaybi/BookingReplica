@@ -35,3 +35,7 @@
   color: #003580;
   font-family: "Poppins", sans-serif;
 }
+
+.link {
+  text-decoration: none;
+}

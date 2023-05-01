@@ -1,6 +1,8 @@
 import { useLocation } from "react-router-dom"
 import Header from "../../components/header/Header"
 import Navbar from "../../components/navbar/Navbar"
+import MailList from "../../components/mailList/MailList"
+import Footer from "../../components/footer/Footer"
 import { format } from "date-fns"
 import "./list.css"
 import { useEffect, useState } from "react"
@@ -109,6 +111,8 @@ function List() {
           </div>
         </div>
       </div>
+      <MailList />
+      <Footer />
     </div>
   )
 }

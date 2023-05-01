@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./searchItem.css"
 
 function SearchItem() {
@@ -9,7 +10,9 @@ function SearchItem() {
         className="siImg"
       />
       <div className="siDesc">
-        <h1 className="siTitle">Tower Street Apartements</h1>
+        <Link className="link" to="/hotels/1">
+          <h1 className="siTitle">Tower Street Apartements</h1>
+        </Link>
         <span className="siDistance">500m from center</span>
         <span className="siTaxi">Free airport taxi</span>
         <span className="siSubtitle">
